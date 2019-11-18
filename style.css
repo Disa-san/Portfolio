@@ -53,11 +53,6 @@ body {
   padding-top: 40px
 }
 
-.content {
-  /* padding-left: 40px;
-  padding-right: 40px; */
-}
-
 
 h1 {
   position: absolute;
@@ -118,7 +113,7 @@ header {
   width: 100%;
   margin: 0 auto;
   width: 300px;
-  /* height: 50px; */
+  
 }
 
 .icon{
@@ -144,6 +139,8 @@ header {
   
 }
 
+
+
 .links {
   display: flex;
   align-self: flex-end;
@@ -156,12 +153,9 @@ header {
 
 .links-red {
   display: flex;
-  align-self: flex-end;
-  margin: 100px 35px 0 0;
-  display: flex;
+  align-items: center;
   flex-direction: row;
-  position: absolute;
-   
+  justify-content: center;
 }
 
 .myContactInfo {
@@ -172,9 +166,8 @@ header {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
   color: #be7575;
-  margin: 0;
+  margin: 20px;
   text-align: center;
-  margin-left: 30px;
 }
 
 p {
@@ -210,7 +203,7 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   
 }
 
@@ -225,13 +218,16 @@ p {
 
 ul {
   font-family: 'Roboto', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   list-style-type: none;
+  margin: 20px;
+  padding: 0;
 }
 
   /*** TABLET ***/
   @media (min-width: 668px) {
   
+    
    
     .background-photo {
       width: 100%;
@@ -288,6 +284,10 @@ ul {
        font-size: 24px;
     }
     
+    .skills {
+      justify-content: center;
+      
+    }
    
   
   /*** DESKTOP ***/
@@ -297,6 +297,14 @@ ul {
   .background-photo {
     width: 100%;
   
+  }
+
+  .circles-red{
+    border: 2px solid red;
+    width: 80px;
+    height: 80px;
+    
+    
   }
 
   .information-grey {
@@ -329,10 +337,13 @@ ul {
     display: flex;
     flex-direction: row;
     margin: 40px;
+  
   }
 
   .project {
     justify-content: flex-start;
+    text-align: center;
+    
   }
   
   h1 {
@@ -360,7 +371,15 @@ ul {
      left: 300px;
      font-size: 24px;
   }
+
+  h6 {
+    text-align: center;
+    justify-content: ;
+  }
   
+  .links-red {
+    justify-content: space-evenly;
+  }
   
   
   }
