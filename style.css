@@ -47,7 +47,7 @@ body {
 .contact {
   font-family: 'Roboto', sans-serif;
   height: 220px;
-  background-color: #be7575;
+  background-color: #ad5c51;
   margin: 0;
   text-align: center;
   padding-top: 40px
@@ -96,7 +96,7 @@ h5 {
 h6 {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  color: #be7575;
+  color: #ad5c51;
   margin: 0;
   text-align: left;
   margin-left: 0;
@@ -169,7 +169,7 @@ header {
 .mySkills  {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
-  color: #be7575;
+  color: #ad5c51
   margin: 20px;
   text-align: center;
 }
