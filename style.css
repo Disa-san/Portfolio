@@ -38,7 +38,6 @@ body {
   height: 40px;
   margin: 5px;
   display:flex;
-  justify-content: center;
   align-items: center;
 }
 
@@ -145,11 +144,20 @@ header {
   z-index: 2;
 }
 
+.linkText {
+  position: absolute;
+ font-size: 11px;
+ top: 40px;
+ color: red;
+ margin-right: 15px;
+}
+
 .links-red {
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
+  position: relative;
 }
 
 .myContactInfo {
@@ -288,6 +296,7 @@ ul {
     border: 2px solid red;
     width: 80px;
     height: 80px;
+    justify-content: space-evenly;
   }
 
   h1 {
@@ -342,6 +351,11 @@ ul {
   .links-red {
     justify-content: space-evenly;
     padding: 20px 130px 50px 130px;
+  }
+
+  .linkText {
+    top: 100px;
+    justify-content: space-evenly;
   }
 
   .mySites {
