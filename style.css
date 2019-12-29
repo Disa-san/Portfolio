@@ -34,8 +34,8 @@ body {
 .circles-red{
   border: 2px solid red;
   border-radius: 50%;
-  width: 40px;
-  height: 40px;
+  width: 10%;
+  height: 10%;
   margin: 5px;
   display:flex;
   align-items: center;
@@ -207,6 +207,7 @@ p {
 .project {
   height: 300px;
   width: 300px;
+  
 }
 
 .skills {
@@ -231,6 +232,10 @@ ul {
 
   /*** TABLET ***/
   @media (min-width: 668px) {
+
+    a {
+    left: 40px; 
+    }
    
     .background-photo {
       width: 100%;
