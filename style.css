@@ -7,7 +7,6 @@ a {
   cursor: pointer;
 }
 
-
 .background-photo {
   height: 520px; 
   position: relative;
@@ -128,6 +127,28 @@ header {
   text-align: center;
   padding: 40px;
   
+}
+
+.line-ball {
+  height: 3px;
+  width: 50px;
+  background: #ad5c51;
+  position: relative;
+  float: left;
+  top: 12px;
+  margin-right: 10px;
+}
+
+.line-ball::after {
+  content: '';
+  height: 10px;
+  width: 10px;
+  position: relative;
+  float: right;
+  top: -3px;
+  right: -1px;
+  border-radius: 50%;
+  background: #ad5c51;
 }
 
 .link {
@@ -299,6 +320,10 @@ text {
   width: 300px;
 }
 
+.thoughts-wrapper {
+  padding-left: 20px;
+}
+
 
 ul {
   font-family: 'Roboto', sans-serif;
@@ -353,7 +378,6 @@ ul {
     }
 
     .information-grey {
-      padding-right: 200px;
       padding-left: 200px;
     }
 
@@ -372,9 +396,19 @@ ul {
       width:200px;
     }
 
+    .presentation {
+     padding-left: 0;
+     margin: 0;
+    }
+
     .skills {
       justify-content: center;
     }
+
+    #tech {
+      width: 600px; 
+    }
+
   }
   
   /*** DESKTOP ***/
