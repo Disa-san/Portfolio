@@ -4,6 +4,7 @@ a {
   text-decoration: none;
   font-size: 20px;
   font-weight: 500;
+  cursor: grab;
 }
 
 .background-photo {
@@ -52,6 +53,10 @@ body {
   padding-top: 40px
 }
 
+.content {
+
+}
+
 
 h1 {
   position: absolute;
@@ -96,7 +101,6 @@ h6 {
   margin: 0;
   text-align: left;
   margin-left: 0;
-  text-align: center;
 }
 
 header {
@@ -120,11 +124,8 @@ header {
 
 .information-grey {
   text-align: center;
-  padding-top: 40px;
+  padding: 30px;
   background-color: #f2eee5;
-  padding-right: 40px;
-  padding-left:40px;
-  padding-bottom: 40px;
 }
 
 .information {
@@ -133,6 +134,9 @@ header {
   
 }
 
+.link {
+  cursor: pointer;
+}
 
 
 .links {
@@ -145,6 +149,7 @@ header {
   right: 5px;
   top: 5px;
   z-index: 2;
+  cursor: pointer;
 }
 
 .link-text {
@@ -154,6 +159,8 @@ header {
  color: red;
  margin-right: 15px;
  margin-top: 15px;
+ width: 100px; 
+ height: 20px; 
 }
 
 .links-red {
@@ -181,13 +188,13 @@ header {
   font-size: 20px;
   color: white;
   margin: 0;
-  text-align: left;
+  text-align: center;
   margin-left: 0;
   text-align: center;
   font-weight: bold;
   position: absolute;
   top: 30%;
-  left: 25%;
+  left: 50%;
   transform: translate(-50%, -50%); */
   z-index: 100;
 }
@@ -220,14 +227,19 @@ p {
   z-index: -1;
 }
 
+.projects {
+  width: 300px; 
+}
+
 .project-wrapper {
   position: relative;
-  left: 60px; 
+  left: 20px; 
 }
 
 .project-info {
   width: 300px; 
-  margin-left: 30px; 
+  padding-bottom: 0;
+  margin-bottom: 0;
 
 }
 
@@ -243,20 +255,40 @@ span {
   color: #ad5c51;; 
 }
 
-.story{
+.story {
+  width: 300px; 
+  margin-bottom: 50px; 
+}
+
+.symbol-red {
+padding-left: 12px;
+padding-right: 8px;
+padding-top: 10px;
+padding-bottom: 8px;
+
+}
+
+.thoughts {
   width: 300px; 
 }
 
-.thoughts-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-}
+
 
 #tech {
   text-align: center;
-  width: 900px; 
-  margin-
+  width: 300px; 
+  
+}
+
+.tech-tags {
+  display: inline-block;
+  font-size: 12px;
+  background-color: #c2e8ce;
+  padding: 5px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+  height: 25px;
 }
 
 text {
@@ -421,7 +453,6 @@ ul {
 
   .mySites {
     position: absolute;
-    margin: 0 0 0 100px; 
   }
 
   .portrait {
@@ -441,6 +472,21 @@ ul {
     justify-content: space-between;
     text-align: center;
     padding: 30px; 
+  }
+
+  .project-info {
+    margin-left: 40px;
+  }
+
+  #tech {
+    width: 900px; 
+  }
+
+  .thoughts-wrapper {
+    position: relative;
+    left: 10px; 
+    margin-right: 25px;
+    margin-left: 25px;
   }
 
   }
