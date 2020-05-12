@@ -126,6 +126,7 @@ header {
 .information {
   text-align: center;
   padding: 40px;
+  
 }
 
 .line-ball {
@@ -182,9 +183,9 @@ header {
 
 .links-red {
   display: flex;
-  align-items: center;
+
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   position: relative;
 }
 
@@ -226,7 +227,6 @@ p {
   top: 0;
   left: 0;
   overflow: hidden;
-
 }
 
 .portrait {
@@ -254,15 +254,15 @@ p {
 }
 
 .projects {
-  width: 300px; 
-  text-align: center;
   padding: 30px;
   background-color: #f2eee5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project-wrapper {
   position: relative;
-  /* left: 20px;  */
 }
 
 .project-info {
@@ -294,19 +294,15 @@ padding-left: 12px;
 padding-right: 8px;
 padding-top: 10px;
 padding-bottom: 8px;
-
 }
 
 .thoughts {
   width: 300px; 
 }
 
-
-
 #tech {
   text-align: center;
   width: 300px; 
-  
 }
 
 .tech-tags {
@@ -320,6 +316,11 @@ padding-bottom: 8px;
   height: 25px;
 }
 
+.tech-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
 text {
   font-size: 14px;;
 }
@@ -329,9 +330,7 @@ text {
   width: 300px;
 }
 
-.thoughts-wrapper {
-  /* padding-left: 20px; */
-}
+
 
 
 ul {
@@ -386,13 +385,18 @@ ul {
       padding-left: 200px;
     }
 
+    .information-grey {
+      padding-left: 100px;
+    }
+
     .links {
       right: 90px;
       top: 50px;
     }
 
     .link-text {
-      margin-top: 20px;
+      margin-top: 40px;
+      margin-left: 20px;
     }
   
     .portrait {
@@ -407,24 +411,20 @@ ul {
     }
 
     .projects {
-      width: 100%;
-      padding: 0;
-    }
-
-    .project-info {
-      width: 100%;
+      flex-direction: row;
     }
 
     .skills {
       justify-content: center;
     }
 
-    .story {
-      width: 100%
+    .symbol-red {
+      padding-left: 20px;
+      padding-top: 10px;
     }
 
     #tech {
-      width: 400px; 
+      width: 500px; 
     }
 
   }
@@ -436,11 +436,12 @@ ul {
     width: 100%;
   }
 
-  .circles-red{
+  .circles-red {
+    display: flex;
     border: 2px solid red;
     width: 80px;
     height: 80px;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-left: 5px;
   }
 
@@ -473,17 +474,13 @@ ul {
   }
 
   .information-grey {
-    /* padding-right: 300px; */
-    /* padding-left: 300px; */
+    padding-right: 300px;
+    padding-left: 300px;
   }
   
   .information {
     padding-right: 250px;
     padding-left: 250px;
-  }
-
-  .introduction {
-    width: 100%;
   }
 
   .links {
@@ -496,14 +493,10 @@ ul {
     right: 250px;
     z-index: 2;
   }
-  
-  .links-red {
-    justify-content: center;
-    padding: 20px 130px 50px 130px;
-  }
+
 
   .link-text {
-    top: 100px;
+    top: 70px;
     justify-content: space-evenly;
   }
 
@@ -518,36 +511,23 @@ ul {
   }
 
   .projects {
-    /* width: 1200px; */
     display: flex;
     flex-direction: row;
-    justify-content: center;
     margin: 0;
-    
-  }
-
-  .project {
-    justify-content: space-between;
-    text-align: center;
-    padding: 30px; 
+    position: relative;
   }
 
   .project-info {
     margin-left: 40px;
-    width: 300px;
   }
 
-  .story {
-    width: 300px;
+  .symbol-red {
+    padding-left: 10px;
+   
   }
 
   #tech {
-    width: 100%; 
-
-  }
-
-  .tech-tags-wrapper {
-    width: 300px;
+    width: 900px; 
   }
 
   .thoughts-wrapper {
