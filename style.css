@@ -126,7 +126,6 @@ header {
 .information {
   text-align: center;
   padding: 40px;
-  
 }
 
 .line-ball {
@@ -242,6 +241,12 @@ p {
   bottom: 0;
 }
 
+.presentation {
+  text-align: center;
+  padding: 30px;
+  background-color: #f2eee5;
+}
+
 .project {
   height: 250px;
   width: 300px;
@@ -250,11 +255,14 @@ p {
 
 .projects {
   width: 300px; 
+  text-align: center;
+  padding: 30px;
+  background-color: #f2eee5;
 }
 
 .project-wrapper {
   position: relative;
-  left: 20px; 
+  /* left: 20px;  */
 }
 
 .project-info {
@@ -322,7 +330,7 @@ text {
 }
 
 .thoughts-wrapper {
-  padding-left: 20px;
+  /* padding-left: 20px; */
 }
 
 
@@ -378,10 +386,6 @@ ul {
       padding-left: 200px;
     }
 
-    .information-grey {
-      padding-left: 200px;
-    }
-
     .links {
       right: 90px;
       top: 50px;
@@ -402,12 +406,25 @@ ul {
      margin: 0;
     }
 
+    .projects {
+      width: 100%;
+      padding: 0;
+    }
+
+    .project-info {
+      width: 100%;
+    }
+
     .skills {
       justify-content: center;
     }
 
+    .story {
+      width: 100%
+    }
+
     #tech {
-      width: 600px; 
+      width: 400px; 
     }
 
   }
@@ -456,13 +473,17 @@ ul {
   }
 
   .information-grey {
-    padding-right: 300px;
-    padding-left: 300px;
+    /* padding-right: 300px; */
+    /* padding-left: 300px; */
   }
   
   .information {
     padding-right: 250px;
     padding-left: 250px;
+  }
+
+  .introduction {
+    width: 100%;
   }
 
   .links {
@@ -477,7 +498,7 @@ ul {
   }
   
   .links-red {
-    justify-content: space-evenly;
+    justify-content: center;
     padding: 20px 130px 50px 130px;
   }
 
@@ -497,10 +518,12 @@ ul {
   }
 
   .projects {
+    /* width: 1200px; */
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin: 0;
-    position: relative;
+    
   }
 
   .project {
@@ -511,10 +534,20 @@ ul {
 
   .project-info {
     margin-left: 40px;
+    width: 300px;
+  }
+
+  .story {
+    width: 300px;
   }
 
   #tech {
-    width: 900px; 
+    width: 100%; 
+
+  }
+
+  .tech-tags-wrapper {
+    width: 300px;
   }
 
   .thoughts-wrapper {
